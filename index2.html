@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Gallery</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Bird Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Bird Watching Tips</a></li>
+                <li><a href="#">Best Birding Spots</a></li>
+                <li><a href="#">Bird Photography</a></li>
+            </ul>
+        </aside>
+        <article>
+            <section>
+                <img id="birdImage" src="http://www.outgrabe.net/bird00.jpg" alt="Bird">
+                <p id="birdDescription">Pardalote by fir0002 (CC-by-NC)</p>
+                <div class="button-container">
+                    <button onclick="changeImage('Pardalote')">Pardalote</button>
+                    <button onclick="changeImage('Purple Swamp Hen')">Purple Swamp Hen</button>
+                    <button onclick="changeImage('White-headed Stilt')">White-headed Stilt</button>
+                    <button onclick="changeImage('Inland Thornbill')">Inland Thornbill</button>
+                    <button onclick="changeImage('Rose Robin')">Rose Robin</button>
+                </div>
+                <button id="toggleThemeBtn" onclick="toggleTheme()">Toggle Theme</button>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bird Gallery</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
