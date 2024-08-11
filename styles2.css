@@ -92,7 +92,9 @@ button {
     cursor: pointer;
 }
 
-
+button:hover {
+    background-color: orange;
+}
 
 footer {
     text-align: center;
